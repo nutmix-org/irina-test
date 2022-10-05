@@ -1,0 +1,26 @@
+[
+    {
+        "valid": "good",
+        "email": "a@a.com", 
+        "password": "Pass123!",
+        "email_error": "",
+        "password_error": "" 
+
+    },
+    {
+        "valid": "bad",
+        "email": "a", 
+        "password": "Pass123!",
+        "email_error": "Email address is invalid.",
+        "password_error": "" 
+
+    },
+    {
+        "valid": "bad",
+        "email": "", 
+        "password": "Pass123!",
+        "email_error": "Please complete this step to continue registration",
+        "password_error": "" 
+
+    }
+]
